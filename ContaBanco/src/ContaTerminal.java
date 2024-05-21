@@ -7,6 +7,6 @@ public class ContaTerminal {
         CriarConta criarConta = new CriarConta();
 
         criarConta.novaConta();
-        System.out.println("Olá " + criarConta.primeiro_Nome.concat(" " + criarConta.sobrenome) + ", obrigador por criar uma conta em nosso banco, sua agência é " + criarConta.agencia + ", conta " + criarConta.conta + " e seu saldo de R$" + criarConta.saldo + " já está disponivél para interações.");
+        System.out.println("Olá " + criarConta.primeiro_Nome.concat(" " + criarConta.sobrenome) + ", obrigado por criar uma conta em nosso banco, sua agência é " + criarConta.agencia + ", conta " + criarConta.conta + " e seu saldo de R$" + criarConta.saldo + " já está disponivél para interações.");
     }
 }
